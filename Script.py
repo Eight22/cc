@@ -136,7 +136,7 @@ I can't find the <b>{}</b> in my database! 🥲
 
 - 👻👻
 
-- ꜱᴏᴜʀᴄᴇ - <a href=https://github.com/
+- L - <a href=https://github.com/
 
 ᴅᴇᴠʟᴏᴘᴇʀ -
 <a href=https://telegram.me/vinayjaatchauhan>LUND</a>

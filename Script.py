@@ -136,8 +136,8 @@ I can't find the <b>{}</b> in my database! 🥲
 
 - 👻👻
 
-- ꜱᴏᴜʀᴄᴇ - <a href=https://github.com/LUND LELO
+- ꜱᴏᴜʀᴄᴇ - <a href=https://github.com/
 
 ᴅᴇᴠʟᴏᴘᴇʀ -
-<a href=https://telegram.me/vinayjaatchauhan>Movies wala</a>
-<a href=https://telegram.me/vinayjaatchauhan>vinay</a></b>"""
+<a href=https://telegram.me/vinayjaatchauhan>LUND</a>
+<a href=https://telegram.me/vinayjaatchauhan>LE</a></b>"""

@@ -61,6 +61,15 @@ async def start(client, message):
             InlineKeyboardButton('💰 ᴇᴀʀɴ ᴍᴏɴᴇʏ ʙʏ ʙᴏᴛ 💰', callback_data='earn')
         ]]
         reply_markup = InlineKeyboardMarkup(buttons)
+        m=await message.reply_text("ᴀɪ ᴘᴏᴡᴇʀ 𝟸.𝟶 ɪs ᴡᴏʀᴋɪɴɢ...")
+        await asyncio.sleep(1)
+        await m.delete()
+        m=await message.reply_text("👀")
+        await asyncio.sleep(1)
+        await m.delete()
+        m=await message.reply_text("⚡")
+        await asyncio.sleep(1)
+        await m.delete()
         await message.reply_photo(
             photo=random.choice(PICS),
             caption=script.START_TXT.format(message.from_user.mention, get_wish()),

@@ -17,7 +17,6 @@ class script(object):
 ✨ Used Storage: <code>{}</code>
 ⚡️ Free Storage: <code>{}</code>
 🚀 Uptime: <code>{}</code>"""
-📟 RAM:<code>{}<code>
 
     NEW_GROUP_TXT = """#NewGroup
 ★ Title: {}

@@ -91,4 +91,4 @@ async def imdb_callback(bot: Client, quer_y: CallbackQuery):
         caption = "No Results"
     if imdb.get('poster'):
         try:
-            await quer_y.message.reply_photo(photo=imdb['poster']
+          

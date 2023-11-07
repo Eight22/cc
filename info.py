@@ -114,7 +114,7 @@ else:
         if not URL.endswith("/"):
             URL += '/'
     elif '.' in URL:
-        URL = f'http://{URL}:{PORT}/'
+        URL = f'http://{URL}/'
     else:
         logging.error('URL is not valid, exiting now')
         exit()

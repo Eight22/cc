@@ -440,7 +440,15 @@ async def advantage_spoll_choker(bot, query):
     _, id, user = query.data.split('#')
     if int(user) != 0 and query.from_user.id != int(user):
         return await query.answer(f"Hello {query.from_user.first_name},\nDon't Click Other Results!", show_alert=True)
-
+           
+            m=await message.reply_text("ᴀɪ ᴘᴏᴡᴇʀ 𝟸.𝟶 ɪs ᴡᴏʀᴋɪɴɢ...")
+            await asyncio.sleep(1)
+            await m.delete()
+            search = message.text
+            m=await message.reply_text("🔍")
+            search = search.lower()
+            find = search.split(" ")
+            search = ""
     movie = await get_poster(id, id=True)
     search = movie.get('title')
     await query.answer('Check In My Database...')
@@ -457,7 +465,7 @@ async def advantage_spoll_choker(bot, query):
             await query.message.reply_to_message.delete()
         except:
             pass
-
+            
 @Client.on_callback_query()
 async def cb_handler(client: Client, query: CallbackQuery):
     if query.data == "close_data":

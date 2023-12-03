@@ -33,7 +33,7 @@ PORT = int(environ.get('PORT', ''))
 PICS = (environ.get('PICS', 'https://telegra.ph/file/4ebd5576305bbfeb1cb25.jpg https://telegra.ph/file/9b7ec883efbe41c7cccbd.jpg https://telegra.ph/file/5483741c734210af56a1c.jpg https://telegra.ph/file/4204644e28f1d84460080.jpg https://telegra.ph/file/e46f1bb743506fb498071.jpg')).split()
 
 # Bot Admins
-ADMINS = environ.get('ADMINS', '5741918628')
+ADMINS = environ.get('ADMINS', '5069272727')
 if len(ADMINS) == 0:
     logging.error('ADMINS is missing, exiting now')
     exit()
